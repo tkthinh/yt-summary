@@ -1,0 +1,1 @@
+import{s as t}from"./storage-0924aca3.js";import{a as C,r as c}from"./user-provider-2e6d438c.js";const u=()=>{const{userConfig:n,onChangeUserConfig:o}=C(),e=c.useCallback(async(a,s)=>{await t(a,s),o(r=>({...r,[a]:s}))},[o]);return{userConfig:n,onChange:e}};export{u};

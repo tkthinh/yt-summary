@@ -1,0 +1,1 @@
+const t=async a=>{const e=await chrome.storage.local.get(a);if(!(Object.keys(e).length===0&&e.constructor===Object))return Array.isArray(a),e},o=async(a,e)=>{await chrome.storage.local.set({[a]:e})},r=async a=>{await chrome.storage.local.remove(a)};export{r as c,t as g,o as s};

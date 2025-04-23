@@ -1,0 +1,1 @@
+const p=async()=>await new Promise(o=>{const e=setTimeout(()=>{o("")},1e3);chrome.runtime.sendMessage({action:"get_prompt"},t=>{clearTimeout(e);const m=(t==null?void 0:t.prompt)??"";o(m)})});export{p as g};
